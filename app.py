@@ -7,6 +7,8 @@ from langchain.prompts import FewShotPromptTemplate
 from langchain.prompts.example_selector import LengthBasedExampleSelector
 from dotenv import load_dotenv
 
+OPENAI_API_KEY="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"
+
 load_dotenv()
 
 def getLLMResponse(query,age_option,tasktype_option):
